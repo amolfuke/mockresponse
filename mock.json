@@ -1,0 +1,52 @@
+{
+    "header_reply": {
+        "version": "v05",
+        "response_type": "MULTIBULKFXCALL",
+        "source_app": "defaultapp"
+    },
+    "response_status": {
+        "status": 0,
+        "code": "P0000",
+        "ext_code": "200.proxy1_canvmnp-qacpeauto-i-048b2531dd4ecd1fa.10.39.39.198",
+        "message": "OK.SUCCESSFUL PROCESSING",
+        "long_message": "NO ERRORS--NO WARNINGS-.1175.2021-05-10 14:47:46.134_2021-05-10 14:47:46.157"
+    },
+    "send_response_list": [
+        {
+            "mtcn": "8836418871",
+            "sender": {
+                "client": "CCC777777",
+                "channel": "WRET",
+                "cty_iso2_ext": "CA",
+                "curr_iso3": "CAD",
+                "cpc": "CAN",
+                "funds_in": "CC",
+                "send_amount": 1000
+            },
+            "receiver": {
+                "cty_iso2_ext": "US",
+                "curr_iso3": "USD"
+            },
+            "info_fx": {
+                "base_fx1": "1.209",
+                "base_fx2": "1.0",
+                "test_q": "P",
+                "test_q_max_amnt": 299.99,
+                "max_payout_amnt": 669248,
+                "max_qc_payout": 431664,
+                "fix_flag": "S;500,S"
+            },
+            "bulk_detail_services": [
+                {
+                    "net_fx": "0.7956989",
+                    "receive_amount": 795.7,
+                    "fx_spreadcli": 3.8,
+                    "service": "000",
+                    "fund_out": "000",
+                    "fund_in": "CC",
+                    "dir_flag": "N"
+                }
+            ]
+        }
+    ]
+}
